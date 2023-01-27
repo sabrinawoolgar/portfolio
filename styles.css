@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(./fonts/OpenSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    font-family: 'Open Sans';
+}
