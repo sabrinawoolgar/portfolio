@@ -24,4 +24,4 @@ function getMousePosition(e) {
 document.addEventListener("mousemove", getMousePosition);
 document.addEventListener("touchmove", getMousePosition);
 
-//disable flashlight when lights are on
+//------------disable flashlight when lights are on---------------------//
