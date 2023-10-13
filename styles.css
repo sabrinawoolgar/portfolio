@@ -4,8 +4,36 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     background-color: pink;
     font-family: 'Open Sans';
 }
+ul {
+    list-style-type: circle;
+
+}
+
+.hidden {
+    display: none;
+}
+
+#flashlight {
+    --Xpos: 50vw;
+    --Ypos: 50vh;
+}
+
+#flashlight:before {
+    content: "";
+    pointer-events: none; 
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: radial-gradient(
+        circle 15em at var(--Xpos) var(--Ypos),
+        rgba(0, 0, 0, 0),
+        rgb(17, 7, 39)
+    );
+}
+  
