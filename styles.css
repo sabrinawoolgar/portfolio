@@ -18,7 +18,7 @@ ul {
     display: none;
 }
 
-#flashlight {
+/* #flashlight {
     --Xpos: 50vw;
     --Ypos: 50vh;
 }
@@ -35,5 +35,5 @@ ul {
         rgba(0, 0, 0, 0),
         rgb(17, 7, 39)
     );
-}
+} */
   
